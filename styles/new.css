@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 
-body {
+header, main {
   margin: 0 135px;
   font-family: "Mulish", sans-serif;
 }
@@ -246,6 +246,76 @@ width: 610px;
   font-weight: 400;
   margin-bottom: 48px;
   margin: 24px 273px 48px 273px;
+}
+.newsletter{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.inp-box {
+  /* width: 174px; */
+  height: 52px;
+  border-radius: 8px;
+  background: rgba(19, 19, 24, 0.05);
+  color: rgba(19, 19, 24, 0.50);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+
+}
+.newsletter-image{
+  position: relative;
+}
+.savings-box{
+  border-radius: 16px;
+  background: #FF5400;
+  position: absolute;
+  top:290px;
+  left: 380px;
+  width: 40%;
+  padding: 10px;
+  transform: rotate(-19.628deg);
+}
+.first-line{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0;
+}
+.second-line{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.move-right{
+  margin-left: 40%;
+}
+.bottom{
+  text-align: center;
+  margin-top: 100px;
+  padding: 110px 10% 100px 10%;
+  background-color: rgba(19, 19, 24, 0.05);
+}
+.link-icons{
+  margin: 32px 0 50px 0;
+}
+.icon{
+  margin-right: 20px;
+}
+.copyright{
+  margin: 50px 0 0 0;
 }
 @media screen and (max-width:600px) {
   body {
