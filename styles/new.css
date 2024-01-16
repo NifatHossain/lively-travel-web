@@ -260,6 +260,44 @@ width: 610px;
   margin-bottom: 48px;
   margin: 24px 273px 48px 273px;
 }
+.perfect-place{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 100px 0;
+}
+.perfect-place-content{
+  width: 50%;
+}
+.place-title{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 0;
+}
+.place-des{
+  color: #5A5A5D;
+  margin-bottom: 20px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+.place-list-des{
+  color: #131318;
+  margin-bottom: 20px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 700;
+}
+.place-video{
+  width: 40%;
+}
+.place-video iframe{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 .newsletter{
   display: flex;
   gap: 20px;
@@ -351,6 +389,51 @@ width: 610px;
   font-weight: 300;
   margin: 50px 0 0 0;
 }
+.deals-container{
+  margin: 100px 0;
+}
+.deal{
+  position: relative;
+  margin-bottom: 24px;
+  
+}
+.deal-image{
+  position: relative;
+}
+.deal-content{
+  position: absolute;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  top: 95px;
+  left: 580px;
+  width:40%;
+  padding: 20px;
+  
+}
+#second-deal{
+  left:40px
+}
+.deal-title{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  
+}
+.deal-des{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+.deal-price{
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
 @media screen and (max-width:600px) {
   header, main {
     max-width: 560px;
@@ -415,6 +498,29 @@ width: 610px;
   margin-left: 0;
   width: auto;
 }
+.deal-image img{
+  width: 100%;
+}
+.deal-content{
+  scale: .50;
+  width: 80%;
+  top:-40px;
+  left: 160px;
+}
+#second-deal{
+  left:-80px
+}
+.perfect-place{
+  flex-direction: column;
+}
+.perfect-place-content{
+  width: 100%;
+}
+.place-video{
+  width: 100%;
+  height: 400px;
+}
+
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -439,5 +545,8 @@ width: 610px;
 }
 .move-right{
   margin-left: 97px;
+}
+.bottom{
+  margin-top: 30px;
 }
 }
