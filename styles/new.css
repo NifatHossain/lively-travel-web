@@ -59,7 +59,7 @@ body {
     180deg,
     rgba(19, 19, 24, 0.8) 0%,
     rgba(19, 19, 24, 0) 100%
-  ); /* Adjust the color and opacity as needed */
+  ); 
 }
 .banner-title {
   color: #fff;
@@ -118,6 +118,7 @@ body {
     /* align-items: center; */
     gap: 40px;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .pri-title{
     color: #131318;
@@ -134,4 +135,73 @@ body {
 }
 #tour-btn{
     margin-top: 32px;
+}
+.destination{
+  margin-bottom: 100px;
+  text-align: center;
+}
+.destination-des{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 240px;
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 100%;
+  margin-bottom: 24px;
+  
+}
+.image{
+  position: relative;
+}
+.image-title-row1{
+  position: absolute;
+  top: 130px;
+  left: 230px;
+  color: #FFF;
+  /* text-align: center; */
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+  /* margin-top: 130px; */
+}
+.image-title-row2{
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+.image-title-row2-col3{
+  position: absolute;
+  top: 110px;
+  left: 75px;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+.image-title-row3-col1{
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
+}
+.image-title-row3-col2{
+  position: absolute;
+  top: 110px;
+  left: 270px;
+  color: #FFF;
+  font-family: Mulish;
+  font-size: 28px;
+  font-weight: 800;
 }
