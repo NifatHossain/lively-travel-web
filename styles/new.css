@@ -173,8 +173,13 @@ button{
   margin-bottom: 24px;
   
 }
+.image:hover{
+  transform: scale(1.1);
+
+}
 .image{
   position: relative;
+  transition: transform 1s ease-in-out;
 }
 .image-title-row1{
   position: absolute;
