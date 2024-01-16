@@ -260,6 +260,51 @@ width: 610px;
   margin-bottom: 48px;
   margin: 24px 273px 48px 273px;
 }
+.deals-container{
+  margin: 100px 0;
+}
+.deal{
+  position: relative;
+  margin-bottom: 24px;
+  
+}
+.deal-image{
+  position: relative;
+}
+.deal-content{
+  position: absolute;
+  border-radius: 16px;
+  border: 2px solid #FFF;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2.5px);
+  top: 95px;
+  left: 580px;
+  width:40%;
+  padding: 20px;
+  
+}
+#second-deal{
+  left:40px
+}
+.deal-title{
+  color: #131318;
+  font-family: Mulish;
+  font-size: 24px;
+  font-weight: 800;
+  
+}
+.deal-des{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+.deal-price{
+  color: #FF5400;
+  font-family: Mulish;
+  font-size: 20px;
+  font-weight: 800;
+}
 .perfect-place{
   display: flex;
   justify-content: space-between;
@@ -361,6 +406,29 @@ width: 610px;
   margin: 0;
 }
 
+.review-section{
+  margin: 80px 0;
+}
+.review-container{
+  display: flex;
+  gap: 15px;
+}
+.review{
+  /* border: 2px solid #ff5400; */
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  padding: 15px;
+}
+.review-des{
+  color: #5A5A5D;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+.buttonR{
+  margin: 40px 0;
+  text-align: center;
+}
 .move-right{
   margin-left: 40%;
 }
@@ -389,51 +457,7 @@ width: 610px;
   font-weight: 300;
   margin: 50px 0 0 0;
 }
-.deals-container{
-  margin: 100px 0;
-}
-.deal{
-  position: relative;
-  margin-bottom: 24px;
-  
-}
-.deal-image{
-  position: relative;
-}
-.deal-content{
-  position: absolute;
-  border-radius: 16px;
-  border: 2px solid #FFF;
-  background: rgba(255, 255, 255, 0.80);
-  backdrop-filter: blur(2.5px);
-  top: 95px;
-  left: 580px;
-  width:40%;
-  padding: 20px;
-  
-}
-#second-deal{
-  left:40px
-}
-.deal-title{
-  color: #131318;
-  font-family: Mulish;
-  font-size: 24px;
-  font-weight: 800;
-  
-}
-.deal-des{
-  color: #5A5A5D;
-  font-family: Mulish;
-  font-size: 16px;
-  font-weight: 400;
-}
-.deal-price{
-  color: #FF5400;
-  font-family: Mulish;
-  font-size: 20px;
-  font-weight: 800;
-}
+
 @media screen and (max-width:600px) {
   header, main {
     max-width: 560px;
@@ -542,6 +566,9 @@ width: 610px;
 }
 .second-line{
   font-size: 21px;
+}
+.review-container{
+  flex-direction: column;
 }
 .move-right{
   margin-left: 97px;
